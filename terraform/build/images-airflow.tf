@@ -1,0 +1,18 @@
+######################################################
+# AIRFLOW
+######################################################
+
+resource "docker_image" "airflow" {
+  name         = "airflow:1.1.0"
+  depends_on   = [docker_image.spark_base]
+  keep_locally = true
+
+  build {
+    path = "../../docker/images/airflow/"
+    tag  = ["airflow:latest"]
+
+    label = {
+      author : "Marc Lamberti"
+    }
+  }
+}
