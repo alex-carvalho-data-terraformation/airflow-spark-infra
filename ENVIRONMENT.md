@@ -216,7 +216,7 @@ http://localhost:32764/
 
 #### URL
 
-http://localhost:32758/
+http://localhost:32758/ui
 
 
 ## airflow
