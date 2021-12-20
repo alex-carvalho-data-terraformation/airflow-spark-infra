@@ -41,8 +41,8 @@ Here are created and `docker containers` and `docker networks` and destroyed aft
 
 ### 2. Dependencies
 
-- <img src="img/docker.png" alt="docker" height="20" style="vertical-align: middle;"> docker
-- <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> terraform
+- <img src="img/docker.png" alt="docker" height="20" style="vertical-align: middle;"> [install docker](https://docs.docker.com/get-docker/)
+- <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> [install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 ## Who do I talk to? ##
 
