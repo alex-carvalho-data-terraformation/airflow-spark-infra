@@ -1,9 +1,10 @@
-# <img src="img/CHANGE_ME.png" alt="CHANGE_ME" width="30" style="vertical-align: middle;"> | CHANGE_ME | alex carvalho #
+# <img src="img/sample.jpg" height="30" style="vertical-align: middle;"> <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;"> <img src="img/postgresql.png" alt="PostgreSQL" height="30" style="vertical-align: middle;"> <img src="img/hdfs.png" alt="hdfs" height="30" style="vertical-align: middle;"> <img src="img/hive.png" alt="Apache Hive" height="30" style="vertical-align: middle;"> <img src="img/hue.png" alt="hue" height="30" style="vertical-align: middle;"> <img src="img/spark.svg" alt="Apache Spark" height="30" style="vertical-align: middle;"> <img src="img/airflow.png" alt="Apache Airflow" height="30" style="vertical-align: middle;"> | terraform infrastructure as a code | alex carvalho #
 
 ## What is this folder for? ##
 
 ### Quick summary
 
+CHANGE_ME
 This folder is intended to follow the exercises present in section 3 of the course.
 
 [Environment description](ENVIRONMENT.md)
@@ -14,6 +15,7 @@ This folder is intended to follow the exercises present in section 3 of the cour
 
 ### Summary of set up
 
+CHANGE_ME
 All invironment is built using Terraform.  
 Basically it's necessary to initialize the Terraform environment
 
@@ -24,6 +26,7 @@ Basically it's necessary to initialize the Terraform environment
 
 ### Configuration
 
+CHANGE_ME
 1. Go to terraform config dir (from this README folder)
 ```bash
 cd ./env/terraform/
@@ -36,12 +39,14 @@ terraform init
 
 ### Deployment instructions
 
+CHANGE_ME
 ```bash
 terraform apply
 ```
 
 ### How to run tests
 
+CHANGE_ME
 1. Check if terraform resources are running
 
 ```bash
@@ -170,12 +175,14 @@ http://localhost:8080/
 
 #### Stop and remove docker containers and network
 
+CHANGE_ME
 ```bash
 terraform destroy
 ```
 docker image rm openjdk:8-jdk-slim-buster
 #### Remove docker images
 
+CHANGE_ME
 ```bash
 docker image rm postgres-hive:latest postgres-hive:1.0.0 postgres:11.4-alpine
 docker image rm hadoop-datanode:1.0.0 hadoop-datanode:latest
@@ -196,10 +203,12 @@ docker image rm airflow:1.0.0 airflow:latest
 
 ## Exercises info
 
+CHANGE_ME
 Many exercises in this lesson consist in creating a new airflow task in a DAG.
 
 ### Test a Task
 
+CHANGE_ME
 *Syntax:*  
 `airflow tasks test [DAG Id] [Task Id] [Date in past]`
 
