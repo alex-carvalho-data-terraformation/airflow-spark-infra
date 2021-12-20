@@ -2,31 +2,33 @@
 
 ## Quick summary  
 
-Terraform infrastructure containing: 
+<img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> Terraform infrastructure containing: 
 
 ### network
 
 - 1 network called airflow-network
 
-### containers
+### containers <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;">
 
-- 1 postgres
-- 1 adminer (Web UI for postgres)
-- 1 hadoop hdfs NameNode
-- 1 hadoop hdfs DataNode
-- 1 hive metastore
-- 1 hive server
+- 1 <img src="img/postgresql.png" alt="PostgreSQL" height="20" style="vertical-align: middle;"> PostgreSQL
+- 1 adminer (Web UI for PostgreSQL)
+- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> hadoop hdfs NameNode
+- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> hadoop hdfs DataNode
+- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> hive metastore
+- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> hive server
 - 1 webhcat (REST API for Hive)
-- 1 hue
-- 1 spark master
-- 1 spark worker
+- 1 <img src="img/hue.png" alt="hue" height="20" style="vertical-align: middle;"> hue
+- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> spark master
+- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> spark worker
 - 1 livy (REST API for spark)
-- 1 airflow
+- 1 <img src="img/airflow.png" alt="Apache Airflow" height="20" style="vertical-align: middle;"> airflow
 
 
 # container descriptions #
 
-## postgres
+## postgres 
+
+<img src="img/postgresql.png" alt="PostgreSQL" height="60" style="vertical-align: middle;">
 
 ### software
 
@@ -73,6 +75,8 @@ http://localhost:32767/
 
 ## hadoop hdfs NameNode
 
+<img src="img/hdfs.png" alt="hdfs" height="60" style="vertical-align: middle;">
+
 ### software
 
 - Hadoop 3.1.1
@@ -84,6 +88,8 @@ http://localhost:32767/
 
 ## hadoop hdfs DataNode
 
+<img src="img/hdfs.png" alt="hdfs" height="60" style="vertical-align: middle;">
+
 ### software
 
 - Hadoop 3.1.1
@@ -91,6 +97,8 @@ http://localhost:32767/
 
 
 ## hive metastore
+
+<img src="img/hive.png" alt="Apache Hive" height="60" style="vertical-align: middle;">
 
 ### software
 
@@ -111,6 +119,8 @@ http://localhost:32763/
 
 ## hive server
 
+<img src="img/hive.png" alt="Apache Hive" height="60" style="vertical-align: middle;">
+
 ### software
 
 - Hive 3.1.2
@@ -125,6 +135,8 @@ http://localhost:32763/
 ## webhcat (REST API for Hive)
 
 ## hue
+
+<img src="img/hue.png" alt="hue" height="60" style="vertical-align: middle;">
 
 ### software
 
@@ -142,6 +154,8 @@ http://localhost:32762/
 
 
 ## spark master
+
+<img src="img/spark.svg" alt="Apache Spark" height="60" style="vertical-align: middle;">
 
 ### software
 
@@ -165,6 +179,8 @@ http://localhost:32766/
 
 
 ## spark worker
+
+<img src="img/spark.svg" alt="Apache Spark" height="60" style="vertical-align: middle;">
 
 ### software
 
@@ -204,6 +220,8 @@ http://localhost:32758/
 
 
 ## airflow
+
+<img src="img/airflow.png" alt="Apache Airflow" height="60" style="vertical-align: middle;">
 
 ### software
 
