@@ -10,18 +10,18 @@
 
 ### containers <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;">
 
-- 1 <img src="img/postgresql.png" alt="PostgreSQL" height="20" style="vertical-align: middle;"> PostgreSQL
-- 1 adminer (Web UI for PostgreSQL)
-- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> hadoop hdfs NameNode
-- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> hadoop hdfs DataNode
-- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> hive metastore
-- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> hive server
+- 1 <img src="img/postgresql.png" alt="PostgreSQL" height="20" style="vertical-align: middle;"> [PostgreSQL](#postgres)
+- 1 [adminer](#adminer) (Web UI for PostgreSQL)
+- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> [hadoop hdfs NameNode](#hadoop-hdfs-namenode)
+- 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> [hadoop hdfs DataNode](#hadoop-hdfs-datanode)
+- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> [hive metastore](#hive-metastore)
+- 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> [hive server](#hive-server)
 - 1 webhcat (REST API for Hive)
-- 1 <img src="img/hue.png" alt="hue" height="20" style="vertical-align: middle;"> hue
-- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> spark master
-- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> spark worker
-- 1 livy (REST API for spark)
-- 1 <img src="img/airflow.png" alt="Apache Airflow" height="20" style="vertical-align: middle;"> airflow
+- 1 <img src="img/hue.png" alt="hue" height="20" style="vertical-align: middle;"> [hue](#hue)
+- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> [spark master](#spark-master)
+- 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> [spark worker](#spark-worker)
+- 1 [livy](#livy-rest-api-for-spark) (REST API for spark)
+- 1 <img src="img/airflow.png" alt="Apache Airflow" height="20" style="vertical-align: middle;"> [airflow](#airflow)
 
 
 # container descriptions #
