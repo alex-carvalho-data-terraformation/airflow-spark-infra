@@ -16,7 +16,7 @@
 - 1 <img src="img/hdfs.png" alt="hdfs" height="20" style="vertical-align: middle;"> [hadoop hdfs DataNode](#hadoop-hdfs-datanode)
 - 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> [hive metastore](#hive-metastore)
 - 1 <img src="img/hive.png" alt="Apache Hive" height="20" style="vertical-align: middle;"> [hive server](#hive-server)
-- 1 webhcat (REST API for Hive)
+- 1 [webhcat](#webhcat-rest-api-for-hive) (REST API for Hive)
 - 1 <img src="img/hue.png" alt="hue" height="20" style="vertical-align: middle;"> [hue](#hue)
 - 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> [spark master](#spark-master)
 - 1 <img src="img/spark.svg" alt="Apache Spark" height="20" style="vertical-align: middle;"> [spark worker](#spark-worker)
