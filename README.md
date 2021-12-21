@@ -1,5 +1,6 @@
-# <img src="img/sample.png" height="30" style="vertical-align: middle;"> <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;"> <img src="img/postgresql.png" alt="PostgreSQL" height="30" style="vertical-align: middle;"> <img src="img/hdfs.png" alt="hdfs" height="30" style="vertical-align: middle;"> <img src="img/hive.png" alt="Apache Hive" height="30" style="vertical-align: middle;"> <img src="img/hue.png" alt="hue" height="30" style="vertical-align: middle;"> <img src="img/spark.svg" alt="Apache Spark" height="30" style="vertical-align: middle;"> <img src="img/airflow.png" alt="Apache Airflow" height="30" style="vertical-align: middle;">  
-# terraform infrastructure as a code | alex carvalho #
+# <img src="img/sample.png" height="30" style="vertical-align: middle;"> | terraform infrastructure as a code | alex carvalho #
+
+# <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;"> <img src="img/postgresql.png" alt="PostgreSQL" height="30" style="vertical-align: middle;"> <img src="img/hdfs.png" alt="hdfs" height="30" style="vertical-align: middle;"> <img src="img/hive.png" alt="Apache Hive" height="30" style="vertical-align: middle;"> <img src="img/hue.png" alt="hue" height="30" style="vertical-align: middle;"> <img src="img/spark.svg" alt="Apache Spark" height="30" style="vertical-align: middle;"> <img src="img/airflow.png" alt="Apache Airflow" height="30" style="vertical-align: middle;">  
 
 ## What is this folder for? ##
 
