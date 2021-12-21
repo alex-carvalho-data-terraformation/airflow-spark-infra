@@ -1,7 +1,7 @@
 # <img src="img/terraform.png" alt="Terraform" height="30" style="vertical-align: middle;"> <img src="img/docker.png" alt="docker" height="30" style="vertical-align: middle;"> build
 
 The build part trigger the construction of objects that consume a lot of time, like the `docker images`.  
-It also create objects that are desired to persist between executions, like `docker volumes`.
+It also creates objects that are desired to persist between executions, like `docker volumes`.
 
 ## 1. Configuration
 

@@ -6,7 +6,7 @@
 
 ### Quick summary
 
-This project is intendend to demonstrate an infrastructure as a code project, using
+This project is intended to demonstrate an infrastructure as a code project, using
 Terraform and Docker.
 
 [Environment description](ENVIRONMENT.md)
@@ -17,11 +17,11 @@ Terraform and Docker.
 
 ### 1. Summary of set up
 
-All invironment is built using Terraform.  
+All environment is built using Terraform.  
 
 Basically it's necessary to initialize the Terraform environment.  
 
-The infrastructure is splited into 2 parts:
+The infrastructure is split into 2 parts:
 
 - [build](BUILD.md)
 - [execution](EXEC.md)
@@ -29,13 +29,13 @@ The infrastructure is splited into 2 parts:
 #### 1.1. build
 
 The build part trigger the construction of objects that consume a lot of time, like the `docker images`.  
-It also create objects that are desired to persist between executions, like `docker volumes`.  
+It also creates objects that are desired to persist between executions, like `docker volumes`.  
 
 [build instructions](BUILD.md)
 
 #### 1.2. execution
 
-It's intended to be very fast, less then 3 min.   
+It's intended to be very fast, less than 3 min.   
 Here are created and `docker containers` and `docker networks` and destroyed after use.  
 
 [execution instructions](EXEC.md)
