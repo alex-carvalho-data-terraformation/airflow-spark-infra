@@ -226,6 +226,12 @@ http://localhost:32758/ui
 ### software
 
 - airflow 2.1.4
+  - providers
+    - apache-hdfs 2.1.0
+    - apache-hive 2.0.2
+    - apache-spark 2.0.1
+    - slack 4.0.1
+    - http 2.0.1
 - python 3
 - pip 20.2.4
 - Spark 2.4.5
