@@ -8,7 +8,7 @@ resource "docker_image" "hive_base" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hive-base/"
+    path = "../../docker/image/hive-base/"
     tag  = ["hive-base:latest"]
 
     label = {
@@ -23,7 +23,7 @@ resource "docker_image" "hive_metastore" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hive-metastore/"
+    path = "../../docker/image/hive-metastore/"
     tag  = ["hive-metastore:latest"]
 
     label = {
@@ -38,7 +38,7 @@ resource "docker_image" "hive_server" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hive-server/"
+    path = "../../docker/image/hive-server/"
     tag  = ["hive-server:latest"]
 
     label = {
@@ -53,7 +53,7 @@ resource "docker_image" "hive_webhcat" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hive-webhcat/"
+    path = "../../docker/image/hive-webhcat/"
     tag  = ["hive-webhcat:latest"]
 
     label = {
@@ -67,7 +67,7 @@ resource "docker_image" "hue" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hue/"
+    path = "../../docker/image/hue/"
     tag  = ["hue:latest"]
 
     label = {

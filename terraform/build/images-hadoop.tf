@@ -7,7 +7,7 @@ resource "docker_image" "hadoop_base" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hadoop-base/"
+    path = "../../docker/image/hadoop-base/"
     tag  = ["hadoop-base:latest"]
 
     label = {
@@ -22,7 +22,7 @@ resource "docker_image" "hadoop_namenode" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hadoop-namenode/"
+    path = "../../docker/image/hadoop-namenode/"
     tag  = ["hadoop-namenode:latest"]
 
     label = {
@@ -37,7 +37,7 @@ resource "docker_image" "hadoop_datanode" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/hadoop-datanode/"
+    path = "../../docker/image/hadoop-datanode/"
     tag  = ["hadoop-datanode:latest"]
 
     label = {

@@ -8,7 +8,7 @@ resource "docker_image" "airflow" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/airflow/"
+    path = "../../docker/image/airflow/"
     tag  = ["airflow:latest"]
 
     label = {

@@ -8,7 +8,7 @@ resource "docker_image" "spark_base" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/spark-base/"
+    path = "../../docker/image/spark-base/"
     tag  = ["spark-base:latest"]
 
     label = {
@@ -23,7 +23,7 @@ resource "docker_image" "spark_master" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/spark-master/"
+    path = "../../docker/image/spark-master/"
     tag  = ["spark-master:latest"]
 
     label = {
@@ -38,7 +38,7 @@ resource "docker_image" "spark_worker" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/spark-worker/"
+    path = "../../docker/image/spark-worker/"
     tag  = ["spark-worker:latest"]
 
     label = {
@@ -52,7 +52,7 @@ resource "docker_image" "livy" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/livy/"
+    path = "../../docker/image/livy/"
     tag  = ["livy:latest"]
 
     label = {

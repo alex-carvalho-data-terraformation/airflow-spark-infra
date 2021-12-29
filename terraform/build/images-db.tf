@@ -7,7 +7,7 @@ resource "docker_image" "postgres" {
   keep_locally = true
 
   build {
-    path = "../../docker/images/postgres/"
+    path = "../../docker/image/postgres/"
     tag  = ["postgres-hive:latest"]
 
     label = {
