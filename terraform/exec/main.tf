@@ -455,17 +455,17 @@ resource "docker_container" "airflow" {
   }
 
   volumes {
-    host_path      = "${path.cwd}/../../../mnt/airflow/dags/"
+    host_path      = "${path.cwd}/../../mnt/airflow/dags/"
     container_path = "/opt/airflow/dags/"
   }
 
   volumes {
-    host_path      = "${path.cwd}/../../../mnt/airflow/airflow.cfg"
+    host_path      = "${path.cwd}/../../mnt/airflow/airflow.cfg"
     container_path = "/opt/airflow/airflow.cfg"
   }
 
   volumes {
-    volume_name = "airflow-vol"
+    volume_name    = "airflow-vol"
     container_path = "/opt/airflow/db"
   }
 

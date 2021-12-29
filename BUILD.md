@@ -154,5 +154,5 @@ docker image rm livy:1.0.0 livy:latest cloudiator/livy-server:latest
 docker image rm spark-worker:1.0.0 spark-worker:latest
 docker image rm spark-master:1.0.0 spark-master:latest
 docker image rm spark-base:1.0.0 spark-base:latest
-docker image rm airflow:1.0.0 airflow:latest
+docker image rm airflow:1.1.0 airflow:latest
 ```
