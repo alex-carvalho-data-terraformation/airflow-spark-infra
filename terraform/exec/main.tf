@@ -2,7 +2,7 @@ terraform {
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"
-      version = "2.15.0"
+      version = "2.23.0"
     }
   }
 }
@@ -25,7 +25,7 @@ resource "docker_network" "airflow_network" {
 
 resource "docker_container" "postgres" {
   name           = "postgres"
-  image          = docker_image.postgres.latest
+  image          = docker_image.postgres.image_id
   restart        = "always"
   remove_volumes = false
 
@@ -64,7 +64,7 @@ resource "docker_container" "postgres" {
 
 resource "docker_container" "adminer" {
   name    = "adminer"
-  image   = docker_image.adminer.latest
+  image   = docker_image.adminer.image_id
   restart = "always"
 
   networks_advanced {
@@ -102,7 +102,7 @@ resource "docker_container" "adminer" {
 
 resource "docker_container" "hadoop_namenode" {
   name           = "namenode"
-  image          = docker_image.hadoop_namenode.latest
+  image          = docker_image.hadoop_namenode.image_id
   restart        = "always"
   remove_volumes = false
 
@@ -140,7 +140,7 @@ resource "docker_container" "hadoop_namenode" {
 
 resource "docker_container" "hadoop_datanode" {
   name           = "datanode"
-  image          = docker_image.hadoop_datanode.latest
+  image          = docker_image.hadoop_datanode.image_id
   restart        = "always"
   remove_volumes = false
 
@@ -179,7 +179,7 @@ resource "docker_container" "hadoop_datanode" {
 
 resource "docker_container" "hive_metastore" {
   name    = "hive-metastore"
-  image   = docker_image.hive_metastore.latest
+  image   = docker_image.hive_metastore.image_id
   restart = "always"
 
   depends_on = [
@@ -215,7 +215,7 @@ resource "docker_container" "hive_metastore" {
 
 resource "docker_container" "hive_server" {
   name    = "hive-server"
-  image   = docker_image.hive_server.latest
+  image   = docker_image.hive_server.image_id
   restart = "always"
 
   depends_on = [docker_container.hive_metastore]
@@ -252,7 +252,7 @@ resource "docker_container" "hive_server" {
 
 resource "docker_container" "hive_webhcat" {
   name    = "hive-webhcat"
-  image   = docker_image.hive_webhcat.latest
+  image   = docker_image.hive_webhcat.image_id
   restart = "always"
 
   depends_on = [docker_container.hive_server]
@@ -280,7 +280,7 @@ resource "docker_container" "hive_webhcat" {
 
 resource "docker_container" "hue" {
   name    = "hue"
-  image   = docker_image.hue.latest
+  image   = docker_image.hue.image_id
   restart = "always"
 
   depends_on = [
@@ -316,7 +316,7 @@ resource "docker_container" "hue" {
 
 resource "docker_container" "spark_master" {
   name           = "spark-master"
-  image          = docker_image.spark_master.latest
+  image          = docker_image.spark_master.image_id
   restart        = "always"
   remove_volumes = false
 
@@ -360,7 +360,7 @@ resource "docker_container" "spark_master" {
 
 resource "docker_container" "spark_worker" {
   name           = "spark-worker"
-  image          = docker_image.spark_worker.latest
+  image          = docker_image.spark_worker.image_id
   restart        = "always"
   remove_volumes = false
 
@@ -401,7 +401,7 @@ resource "docker_container" "spark_worker" {
 
 resource "docker_container" "livy" {
   name    = "livy"
-  image   = docker_image.livy.latest
+  image   = docker_image.livy.image_id
   restart = "always"
 
   depends_on = [docker_container.spark_worker]
@@ -441,7 +441,7 @@ resource "docker_container" "livy" {
 
 resource "docker_container" "airflow" {
   name           = "airflow"
-  image          = docker_image.airflow.latest
+  image          = docker_image.airflow.image_id
   restart        = "always"
   remove_volumes = false
 
