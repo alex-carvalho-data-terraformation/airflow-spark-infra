@@ -77,7 +77,7 @@ resource "docker_container" "adminer" {
   }
 
   env = [
-    "ADMINER_DEFAULT_DB_DRIVER=psql",
+    "ADMINER_DEFAULT_DB_DRIVER=pgsql",
     "ADMINER_DEFAULT_DB_HOST=postgres",
     "ADMINER_DEFAULT_DB_NAME=airflow_db"
   ]
