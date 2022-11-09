@@ -184,9 +184,9 @@ http://localhost:32766/
 
 ### software
 
-- Spark 2.4.5
-- Scala 2.12.4
-- sbt 1.2.8
+- Spark 3.1.1
+- Scala 2.13.10
+- sbt 1.7.3
 - Hive 3.1.2
 - Hadoop 3.1.1
 - openjdk 8

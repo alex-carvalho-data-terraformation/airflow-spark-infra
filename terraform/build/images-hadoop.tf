@@ -11,7 +11,7 @@ resource "docker_image" "hadoop_base" {
     tag  = ["hadoop-base:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
@@ -26,7 +26,7 @@ resource "docker_image" "hadoop_namenode" {
     tag  = ["hadoop-namenode:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }

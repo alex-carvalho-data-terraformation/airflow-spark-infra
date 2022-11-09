@@ -12,7 +12,7 @@ resource "docker_image" "airflow" {
     tag  = ["airflow:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }

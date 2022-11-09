@@ -12,7 +12,7 @@ resource "docker_image" "hive_base" {
     tag  = ["hive-base:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
@@ -27,7 +27,7 @@ resource "docker_image" "hive_metastore" {
     tag  = ["hive-metastore:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
@@ -42,7 +42,7 @@ resource "docker_image" "hive_server" {
     tag  = ["hive-server:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
@@ -57,7 +57,7 @@ resource "docker_image" "hive_webhcat" {
     tag  = ["hive-webhcat:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
@@ -71,7 +71,7 @@ resource "docker_image" "hue" {
     tag  = ["hue:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }

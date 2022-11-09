@@ -11,7 +11,7 @@ resource "docker_image" "postgres" {
     tag  = ["postgres-hive:latest"]
 
     label = {
-      author : "Marc Lamberti"
+      author : "alex carvalho"
     }
   }
 }
